@@ -1,0 +1,12 @@
+import testing
+
+def version() -> str:
+    """Get the libyang version"""
+    NotImplemented
+
+def _test_version():
+    testing.assertEqual("3.2.0", version())
+
+actor main(env):
+    print(version())
+    env.exit(0)

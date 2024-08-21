@@ -1,0 +1,17 @@
+{
+    "zig_dependencies": {
+        "libyang": {
+            "url": "https://github.com/orchestron-orchestrator/libyang/archive/refs/heads/zig-build.tar.gz",
+            "hash": "1220e164610d2071f5b6518d0a1932dbbd5eeadd1f6747f194adf1eb29533e5b039d",
+            "options": {
+                "BUILD_SHARED_LIBS": "false"
+            },
+            "artifacts": ["yang"]
+        },
+        "pcre2": {
+            "url": "https://github.com/orchestron-orchestrator/pcre2/archive/refs/heads/zig-build.tar.gz",
+            "hash": "12200d0c15f2b64854e0f3cb450bd781eadf42b2fd69ebe75d6df45b9e72d93af9a9",
+            "artifacts": ["pcre2-8"]
+        }
+    }
+}
